@@ -1,0 +1,28 @@
+;;;;;;;
+Monthly cost;Total 12 months cost;Currency;;;;;
+19971.707000000006;277160.48;USD;;;;;
+;* Includes upfront cost;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+Region;Description;Service;Upfront;Monthly;First 12 months total;Currency;Configuration summary
+US East (N. Virginia);;S3 Standard;0;23.05;276.60;USD;S3 Standard storage (1000 GB per month)
+US East (N. Virginia);;Amazon EC2;0;4967.636;59611.63;USD;Tenancy (Dedicated Instances), Workload (Consistent, Number of instances: 4), Advance EC2 instance (c6g.8xlarge), Pricing strategy (), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Operating system (Linux), Enable monitoring (disabled), Snapshot Frequency (No snapshot storage), General Purpose SSD (gp3) - Throughput (1000 MBps)
+US East (N. Virginia);;DynamoDB provisioned capacity;18750;2816.53;52548.36;USD;Table class (Standard), Average item size (all attributes) (100 KB), Write reserved capacity term (1 year), Read reserved capacity term (1 year), Data storage size (1000 GB)
+US East (N. Virginia);;DynamoDB Accelerator (DAX) clusters;0;558.45;6701.40;USD;DAX nodes ( 3 instances of type r5.large )
+US East (N. Virginia);;DynamoDB Backup and restore;0;0;0.00;USD;
+US East (N. Virginia);;Amazon Route 53;0;1388;16656.00;USD;Hosted Zones (1), Basic Checks Within AWS (1000), Number of Elastic Network Interfaces (10)
+US East (N. Virginia);;VPN Connection;0;0;0.00;USD;Working days per month (22)
+US East (N. Virginia);;Network Address Translation (NAT) Gateway;0;155.7;1868.40;USD;Number of NAT Gateways (2)
+US East (N. Virginia);;Data Transfer;0;296.96000000000004;3563.52;USD;DT Inbound: Internet (100 TB per month), DT Outbound: Internet (1 TB per month), DT Intra-Region: (10 TB per month), Data transfer cost (296.96000000000004)
+US East (N. Virginia);;Application Load Balancer;0;1476.43;17717.16;USD;Number of Application Load Balancers (1)
+US East (N. Virginia);;Application Load Balancer;0;4104.43;49253.16;USD;Number of Application Load Balancers (1)
+US East (N. Virginia);;Amazon CloudWatch;0;809.5409999999999;9714.49;USD;Number of Metrics (includes detailed and custom metrics) (1000), Number of Dashboards (2), Standard Logs: Data Ingested (1000 GB), GetMetricData: Number of metrics requested (1000), GetMetricWidgetImage: Number of metrics requested (1000), Number of other API requests (1000), Expected Logs Data scanned (1000 GB), Number of Custom/Cross-account events (1000)
+US East (Ohio);;DynamoDB provisioned capacity;18750;2816.53;52548.36;USD;Table class (Standard), Average item size (all attributes) (100 KB), Write reserved capacity term (1 year), Read reserved capacity term (1 year), Data storage size (1000 GB)
+US East (Ohio);;DynamoDB Accelerator (DAX) clusters;0;558.45;6701.40;USD;DAX nodes ( 3 instances of type r5.large )
+US East (Ohio);;DynamoDB Backup and restore;0;0;0.00;USD;
+;;;;;;;
+Increase number of EC2 to 4 with c6g.8xlarge;;;;;;;
+Increase DynamoDB read and write size as well as storage. Add another master to other region, enable DAX;;;;;;;
+Increase Amazon CloudWatch metrics and logs;;;;;;;
+Increase Application Load Balancer to 1000connections/s Average number of new connections per ALB and Processed bytes to 200GB;;;;;;;

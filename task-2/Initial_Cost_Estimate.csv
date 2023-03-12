@@ -1,0 +1,17 @@
+;;;;;;;
+Monthly cost;Total 12 months cost;Currency;;;;;
+8104.748000000001;97436.98;USD;;;;;
+;* Includes upfront cost;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+Region;Description;Service;Upfront;Monthly;First 12 months total;Currency;Configuration summary
+US East (N. Virginia);;S3 Standard;0;23;276.00;USD;S3 Standard storage (1000 GB per month)
+US East (N. Virginia);;Amazon EC2;0;2480.898;29770.78;USD;Tenancy (Dedicated Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 2), Enable monitoring (disabled), Advance EC2 instance (c6gd.4xlarge), Pricing strategy (), Snapshot Frequency (No snapshot storage), General Purpose SSD (gp3) - Throughput (1000 MBps)
+US East (N. Virginia);;DynamoDB provisioned capacity;180;276.14;3493.68;USD;Table class (Standard), Average item size (all attributes) (1 KB), Write reserved capacity term (1 year), Read reserved capacity term (1 year), Data storage size (1000 GB)
+US East (N. Virginia);;Amazon Route 53;0;1388;16656.00;USD;Hosted Zones (1), Basic Checks Within AWS (1000), Number of Elastic Network Interfaces (10)
+US East (N. Virginia);;VPN Connection;0;0;0.00;USD;Working days per month (22)
+US East (N. Virginia);;Network Address Translation (NAT) Gateway;0;77.85;934.20;USD;Number of NAT Gateways (1)
+US East (N. Virginia);;Application Load Balancer;0;1476.43;17717.16;USD;Number of Application Load Balancers (1)
+US East (N. Virginia);;Application Load Balancer;0;2352.43;28229.16;USD;Number of Application Load Balancers (1)
+US East (N. Virginia);;Amazon CloudWatch;0;30;360.00;USD;Number of Metrics (includes detailed and custom metrics) (100), Number of Dashboards (2)
