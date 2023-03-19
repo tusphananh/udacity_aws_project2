@@ -1,8 +1,6 @@
 # TODO: Designate a cloud provider, region, and credentials
 provider "aws" {
-  access_key = "AKIAYOIAUCBBRT5XX6WC"
-  secret_key = "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"
-  region     = "us-east-1"
+  region = "us-east-1"
 }
 
 # TODO: provision 4 AWS t2.micro EC2 instances named Udacity T2

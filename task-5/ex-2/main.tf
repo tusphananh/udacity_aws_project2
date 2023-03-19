@@ -1,7 +1,5 @@
 provider "aws" {
-  access_key = "AKIAYOIAUCBBRT5XX6WC"
-  secret_key = "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"
-  region     = "us-east-1"
+  region = "us-east-1"
 }
 
 # gerated lambda archive. refeence: https://www.terraform.io/docs/providers/archive/d/archive_file.html
