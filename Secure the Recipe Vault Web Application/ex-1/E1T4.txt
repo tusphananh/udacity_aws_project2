@@ -1,0 +1,7 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+S3 bucket is not following the principle of least privilege. The bucket is assigned to specific instances with resource is * and actions is s3:*.
+
+# Poor practice 2
+In VPC, CIDR block is 0.0.0.0/0 which is open to the world. It should be restricted to the IP address of the web server. Need HTTPs to encrypt the traffic.

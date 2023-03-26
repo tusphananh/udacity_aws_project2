@@ -1,0 +1,24 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+
+terrascan: https://github.com/cesar-rodriguez/terrascan
+Regula: https://github.com/fugue/regula
+
+### Example vulnerability
+terrascan : Ingress open to 0.0.0.0/0
+Regula: IAM policies with full "*:*" administrative privileges
+
+##Scan AMI’s or containers for OS vulnerabilities
+Clair: https://github.com/quay/clair
+Anchore: https://anchore.com/
+
+### Example vulcnerability
+Specific version of OpenSSL
+Identify which is installed on the operating system running inside the AMI or container image
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWStealth: https://github.com/cyberark/SkyArk/tree/master/AWStealth
+
+### Example vulnerability
+S3 bucket that is publicly accessible from any where in the world

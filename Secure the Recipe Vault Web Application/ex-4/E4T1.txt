@@ -1,0 +1,13 @@
+
+
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+
+1. Deny access to port 22 from the internet in the security group
+2. Turn off password authentication in the sshd_config file
+3. Use MFA to enhance security
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+
+Security groups can be used to control access to the bucket.
+Apply least privilege principle to the instance role for getting object from free recipe.
+Remove policies for secret recipe.

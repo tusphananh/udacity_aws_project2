@@ -1,0 +1,7 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+Deny ingress from 0.0.0.0/0 to port 22
+Enable VPC flow logging
+Deny ingress from 0.0.0.0/0 to port 3389
+Enable S3 bucket versioning and encryption at server-side
+EC2 volumes are not encrypted
